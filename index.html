@@ -17,14 +17,27 @@
    <nav class="sidebar">
       <div class="text">
          Side Menu
+         <img src="image/valowiki.png" alt="logo" />
       </div>
       <ul>
-         <li class="active"><a href="#">Dashboard</a></li>
+         <li class="active">
+            <a href="#" class="use-btn">Dashboard
+               <span class="fas fa-caret-down third"></span>
+            </a>
+            <ul class="use-show">
+               <li><a href="#">Pages</a></li>
+               <li><a href="#">Elements</a></li>
+               <li><a href="#">Pages</a></li>
+               <li><a href="#">Elements</a></li>
+            </ul>
+         </li>
          <li>
             <a href="#" class="feat-btn">Features
             <span class="fas fa-caret-down first"></span>
             </a>
             <ul class="feat-show">
+               <li><a href="#">Pages</a></li>
+               <li><a href="#">Elements</a></li>
                <li><a href="#">Pages</a></li>
                <li><a href="#">Elements</a></li>
             </ul>
@@ -38,10 +51,7 @@
                <li><a href="#">Web Design</a></li>
             </ul>
          </li>
-         <li><a href="#">Portfolio</a></li>
-         <li><a href="#">Overview</a></li>
-         <li><a href="#">Shortcuts</a></li>
-         <li><a href="#">Feedback</a></li>
+         
       </ul>
    </nav>
    <div class="content">
@@ -58,12 +68,16 @@
         $('.sidebar').toggleClass("show");
       });
         $('.feat-btn').click(function(){
-          $('nav ul .feat-show').toggleClass("show");
-          $('nav ul .first').toggleClass("rotate");
+             $('nav ul .feat-show').toggleClass("show");
+             $('nav ul .first').toggleClass("rotate");
         });
         $('.serv-btn').click(function(){
           $('nav ul .serv-show').toggleClass("show1");
           $('nav ul .second').toggleClass("rotate");
+        });
+        $('.use-btn').click(function(){
+          $('nav ul .use-show').toggleClass("show2");
+          $('nav ul .third').toggleClass("rotate");
         });
         $('nav ul li').click(function(){
           $(this).addClass("active").siblings().removeClass("active");
