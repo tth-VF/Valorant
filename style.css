@@ -123,9 +123,43 @@ nav ul li a span{
 nav ul li a span.rotate{
   transform: translateY(-50%) rotate(-180deg);
 }
-#phoenix{
-  right: 50%;
-  bottom: 3%;
+/* .perso img{
+  width: 300px;
+  margin-top: 25px;
+  border-radius: 5px;
+  margin-left: 325px;
+} */
+body{
+  background-image: url(image/fondecran.jpg);
+}
+/* #jett{
+  position: absolute;
+  bottom:100px;
+  margin-left: 800px;
   border:2px solid red;
+} */
+.titre{
+  color: #e6e6e6;
+  margin-top: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background: grey;
+  width: 300px;
+  margin-left: 47%;
+  text-align: center;
+}
+
+.flex{
+  display: flex;
   text-align:center;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.perso{
+  flex:50%;
+  align-items: center;
+  justify-content: space-around;
+  
 }
