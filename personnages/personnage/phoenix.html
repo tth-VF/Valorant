@@ -30,6 +30,7 @@
                <li><a href="phoenix.html"> Phoenix </a></li>
                <li><a href="sage.html"> Sage </a></li>
                <li><a href="sova.html"> Sova </a></li>
+               <li><a href="killjoy.html"> killjoy </a></li>
             </ul>
          </li>
          <li>
@@ -60,6 +61,9 @@
          </li>
       </ul>
    </nav>
+   <h1 class="titre">phoenix le flamboyant</h1>
+   <br>
+   <div id="spell1"><img src="../../image/spell1.png" alt="spell1"></div>
    <script>
       $('.btn').click(function(){
         $(this).toggleClass("click");
@@ -80,6 +84,11 @@
         $('nav ul li').click(function(){
           $(this).addClass("active").siblings().removeClass("active");
         });
+   </script>
+   <script>
+      document.getElementById("spell1").addEventListener("click", function() {
+      document.getElementById("spell1").innerHTML = "ÉQUIPEZ-vous d'un orbe flamboyant qui explose peu après avoir été lancé, <br/> aveuglant tous les joueurs qui le regardent. TIREZ pour courber la trajectoire de l'orbe vers la gauche. <br/> Utilisez le TIR SECONDAIRE pour courber la trajectoire de l'orbe vers la droite.";
+      });
    </script>
 </body>
 </html>
