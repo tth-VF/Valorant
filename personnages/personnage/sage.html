@@ -61,6 +61,12 @@
          </li>
       </ul>
    </nav>
+   <h1 class="titre"> sage la donneuse de vie </h1>
+   <br>
+   <div id="spell1"><img src="../../image/spell1sa.png" alt="spell1"></div>
+   <div id="spell2"><img src="../../image/spell2sa.png" alt="spell2"></div>
+   <div id="spell3"><img src="../../image/spell3sa.png" alt="spell3"></div>
+   <div id="spell4"><img src="../../image/spell4sa.png" alt="spell4"></div>
    <script>
       $('.btn').click(function(){
         $(this).toggleClass("click");
@@ -81,6 +87,20 @@
         $('nav ul li').click(function(){
           $(this).addClass("active").siblings().removeClass("active");
         });
+   </script>
+   <script>
+      document.getElementById("spell1").addEventListener("click", function() {
+      document.getElementById("spell1").innerHTML = "ÉQUIPEZ-vous d'un orbe ralentissant. <br/> TIREZ pour lancer l'orbe devant vous. <br/> Lorsqu'il touche le sol, l'orbe explose et crée un champ persistant qui ralentit les joueurs qui s'y trouvent.";
+      });
+      document.getElementById("spell2").addEventListener("click", function() {
+      document.getElementById("spell2").innerHTML = "ÉQUIPEZ-vous d'un orbe de soin. <br/>  TIREZ en visant un allié blessé pour lui rendre des PV sur la durée.  <br/> Si vous avez subi des dégâts, utilisez le TIR SECONDAIRE pour récupérer des PV sur la durée.";
+      });
+      document.getElementById("spell3").addEventListener("click", function() {
+      document.getElementById("spell3").innerHTML = "ÉQUIPEZ-vous d'un orbe barrière. <br/> TIRER permet de placer un mur solide. <br/> Le TIR SECONDAIRE fait pivoter le cibleur.";
+      });
+      document.getElementById("spell4").addEventListener("click", function() {
+      document.getElementById("spell4").innerHTML = "ÉQUIPEZ-vous d'une compétence de résurrection. <br/> TIREZ en visant un allié mort pour le ramener à la vie.  <br/> Après une courte canalisation, votre allié est ramené à la vie avec tous ses PV.";
+      });
    </script>
 </body>
 </html>

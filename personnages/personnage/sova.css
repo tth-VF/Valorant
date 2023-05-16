@@ -123,3 +123,58 @@ nav ul li a span{
 nav ul li a span.rotate{
   transform: translateY(-50%) rotate(-180deg);
 }
+body{
+  background-image: url(../../image/sova3.png);
+}
+.titre{
+  color: #e6e6e6;
+  margin-top: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background: grey;
+  width: 250px;
+  margin-left: 40%;
+  text-align: center;
+}
+#spell1 {
+  margin-left: 30%;
+  margin-top: 60px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  text-align: justify;
+  padding-right: 20px;;
+}
+#spell2 {
+  margin-left: 30%;
+  margin-top: 60px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  text-align: justify;
+  padding-right: 20px;
+}
+#spell3 {
+  margin-left: 30%;
+  margin-top: 60px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  text-align: justify;
+  padding-right: 20px;
+}
+#spell4 {
+  margin-left: 30%;
+  margin-top: 60px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  text-align: justify;
+  padding-right: 20px;
+
+} 
+img {
+  border-radius: 5px;
+  margin-left: 30%;
+  padding-right: 20px;
+}

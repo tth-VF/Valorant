@@ -61,6 +61,12 @@
          </li>
       </ul>
    </nav>
+   <h1 class="titre">jett la tempête</h1>
+   <br>
+   <div id="spell1"><img src="../../image/spell1j.png" alt="spell1"></div>
+   <div id="spell2"><img src="../../image/spell2j.png" alt="spell2"></div>
+   <div id="spell3"><img src="../../image/spell3j.png" alt="spell3"></div>
+   <div id="spell4"><img src="../../image/spell4j.png" alt="spell4"></div>
    <script>
       $('.btn').click(function(){
         $(this).toggleClass("click");
@@ -81,6 +87,20 @@
         $('nav ul li').click(function(){
           $(this).addClass("active").siblings().removeClass("active");
         });
+   </script>
+   <script>
+      document.getElementById("spell1").addEventListener("click", function() {
+      document.getElementById("spell1").innerHTML = "Vous vous propulsez INSTANTANÉMENT dans les airs.";
+      });
+      document.getElementById("spell2").addEventListener("click", function() {
+      document.getElementById("spell2").innerHTML = "ACTIVEZ pour préparer une rafale de vent pendant une durée limitée. <br/>RÉUTILISEZ la compétence pour vous propulser dans la direction vers laquelle vous vous dirigez. <br/> Si vous êtes immobile, vous vous propulsez vers l'avant.";
+      });
+      document.getElementById("spell3").addEventListener("click", function() {
+      document.getElementById("spell3").innerHTML = "Lancez INSTANTANÉMENT un projectile. Lorsqu'il touche une surface, <br/> il libère un nuage qui bloque la vision pendant un court instant.  <br/> MAINTENEZ la touche de la compétence pour courber la fumée dans la direction de votre réticule.";
+      });
+      document.getElementById("spell4").addEventListener("click", function() {
+      document.getElementById("spell4").innerHTML = "ÉQUIPEZ-vous d'un ensemble de couteaux extrêmement précis qui se rechargent lorsque vous éliminez un ennemi. <br/>  TIREZ pour lancer un seul couteau sur votre cible.  <br/> Utilisez le TIR SECONDAIRE pour lancer toutes les dagues restantes sur votre cible.";
+      });
    </script>
 </body>
 </html>

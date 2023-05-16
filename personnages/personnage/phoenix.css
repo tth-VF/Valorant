@@ -141,4 +141,40 @@ body{
   margin-top: 60px;
   cursor: pointer;
   text-align: center;
+  color: white;
+  text-align: justify;
+  padding-right: 20px;;
+}
+#spell2 {
+  margin-left: 30%;
+  margin-top: 60px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  text-align: justify;
+  padding-right: 20px;
+}
+#spell3 {
+  margin-left: 30%;
+  margin-top: 60px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  text-align: justify;
+  padding-right: 20px;
+}
+#spell4 {
+  margin-left: 30%;
+  margin-top: 60px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  text-align: justify;
+  padding-right: 20px;
+
 } 
+img {
+  border-radius: 5px;
+  margin-left: 30%;
+  padding-right: 20px;
+}

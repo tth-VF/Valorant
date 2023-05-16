@@ -61,6 +61,12 @@
          </li>
       </ul>
    </nav>
+   <h1 class="titre"> omen le prenneur de vie </h1>
+   <br>
+   <div id="spell1"><img src="../../image/spell1o.png" alt="spell1"></div>
+   <div id="spell2"><img src="../../image/spell2o.png" alt="spell2"></div>
+   <div id="spell3"><img src="../../image/spell3o.png" alt="spell3"></div>
+   <div id="spell4"><img src="../../image/spell4o.png" alt="spell4"></div>
    <script>
       $('.btn').click(function(){
         $(this).toggleClass("click");
@@ -81,6 +87,20 @@
         $('nav ul li').click(function(){
           $(this).addClass("active").siblings().removeClass("active");
         });
+   </script>
+   <script>
+      document.getElementById("spell1").addEventListener("click", function() {
+      document.getElementById("spell1").innerHTML = "Tirez INSTANTANÉMENT un projectile d'ombre vers l'avant,<br/> ce qui réduit brièvement la portée de la vision de tous les joueurs touchés. <br/> Ce projectile peut traverser les murs.";
+      });
+      document.getElementById("spell2").addEventListener("click", function() {
+      document.getElementById("spell2").innerHTML = "ÉQUIPEZ-vous d'un orbe d'ombre accompagné d'un indicateur de portée. <br/> TIREZ pour lancer l'orbe à l'endroit marqué, ce qui crée une sphère d'ombre durable qui bloque la vision. <br/> MAINTENEZ LE TIR SECONDAIRE tout en visant pour éloigner le marqueur. <br/> MAINTENEZ la touche de la compétence tout en visant pour rapprocher le marqueur.";
+      });
+      document.getElementById("spell3").addEventListener("click", function() {
+      document.getElementById("spell3").innerHTML = "ÉQUIPEZ-vous d'une compétence de marche des ombres accompagnée d'un indicateur de portée. <br/> TIREZ pour commencer une courte canalisation avant de vous téléporter vers l'endroit marqué.";
+      });
+      document.getElementById("spell4").addEventListener("click", function() {
+      document.getElementById("spell4").innerHTML = "ÉQUIPEZ-vous d'une carte tactique. <br/> TIREZ pour commencer à vous téléporter vers l'endroit sélectionné. Pendant la téléportation,<br/> vous apparaissez sous forme d'ombre. <br/> Les ennemis peuvent détruire cette ombre pour annuler votre téléportation.";
+      });
    </script>
 </body>
 </html>

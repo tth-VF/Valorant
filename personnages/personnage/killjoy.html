@@ -61,6 +61,12 @@
          </li>
       </ul>
    </nav>
+   <h1 class="titre"> killjoy le génie </h1>
+   <br>
+   <div id="spell1"><img src="../../image/spell1kj.png" alt="spell1"></div>
+   <div id="spell2"><img src="../../image/spell2kj.png" alt="spell2"></div>
+   <div id="spell3"><img src="../../image/spell3kj.png" alt="spell3"></div>
+   <div id="spell4"><img src="../../image/spell4kj.png" alt="spell4"></div>
    <script>
       $('.btn').click(function(){
         $(this).toggleClass("click");
@@ -81,6 +87,20 @@
         $('nav ul li').click(function(){
           $(this).addClass("active").siblings().removeClass("active");
         });
+   </script>
+   <script>
+      document.getElementById("spell1").addEventListener("click", function() {
+      document.getElementById("spell1").innerHTML = "ÉQUIPEZ-vous d'un robot d'alarme camouflé. <br/> TIREZ pour déployer un robot qui traque les ennemis à sa portée.<br/> Quand il atteint sa cible, le robot explose, infligeant l'altération d'état Vulnérable.<br/> MAINTENEZ LA TOUCHE D'ÉQUIPEMENT pour rappeler un robot déployé.";
+      });
+      document.getElementById("spell2").addEventListener("click", function() {
+      document.getElementById("spell2").innerHTML = "ÉQUIPEZ-vous d'une tourelle. <br/> TIREZ pour déployer une tourelle qui tire sur les ennemis dans un cône de 180 degrés.<br/> MAINTENEZ LA TOUCHE D'ÉQUIPEMENT pour rappeler la tourelle déployée.";
+      });
+      document.getElementById("spell3").addEventListener("click", function() {
+      document.getElementById("spell3").innerHTML = "ÉQUIPEZ-vous d'une grenade à essaim de nanites. <br/> TIREZ pour lancer la grenade. À l'atterrissage, la grenade se camoufle.<br/> ACTIVEZ la grenade pour déployer un essaim de nanites.";
+      });
+      document.getElementById("spell4").addEventListener("click", function() {
+      document.getElementById("spell4").innerHTML = "ÉQUIPEZ-vous d'un dispositif de confinement.<br/> TIREZ pour déployer le dispositif. Après un long délai d'activation, <br/>le dispositif retient tous les ennemis pris dans sa zone d'effet. Le dispositif peut être détruit par les ennemis.";
+      });
    </script>
 </body>
 </html>

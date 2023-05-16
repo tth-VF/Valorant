@@ -61,6 +61,12 @@
          </li>
       </ul>
    </nav>
+   <h1 class="titre">sova le tireur d'élite </h1>
+   <br>
+   <div id="spell1"><img src="../../image/spell1so.png" alt="spell1"></div>
+   <div id="spell2"><img src="../../image/spell2so.png" alt="spell2"></div>
+   <div id="spell3"><img src="../../image/spell3so.png" alt="spell3"></div>
+   <div id="spell4"><img src="../../image/spell4so.png" alt="spell4"></div>
    <script>
       $('.btn').click(function(){
         $(this).toggleClass("click");
@@ -81,6 +87,20 @@
         $('nav ul li').click(function(){
           $(this).addClass("active").siblings().removeClass("active");
         });
+   </script>
+   <script>
+      document.getElementById("spell1").addEventListener("click", function() {
+      document.getElementById("spell1").innerHTML = "ÉQUIPEZ-vous d'un arc et d'une flèche électrique.<br/> TIREZ pour décocher la flèche, qui explose à l'impact et blesse les joueurs proches. <br/>MAINTENEZ LE TIR pour augmenter la portée du projectile. Utilisez le TIR SECONDAIRE pour ajouter jusqu'à deux rebonds à cette flèche.";
+      });
+      document.getElementById("spell2").addEventListener("click", function() {
+      document.getElementById("spell2").innerHTML = "ÉQUIPEZ-vous d'un arc et d'une flèche de reconnaissance.<br/> TIREZ pour décocher la flèche, qui s'active à l'impact et révèle la position des ennemis proches se trouvant dans sa ligne de vue. <br/> MAINTENEZ LE TIR pour augmenter la portée du projectile. Utilisez le TIR SECONDAIRE pour ajouter jusqu'à deux rebonds à cette flèche.";
+      });
+      document.getElementById("spell3").addEventListener("click", function() {
+      document.getElementById("spell3").innerHTML = "ÉQUIPEZ-vous d'un drone rapace.<br/> TIREZ pour déployer et prendre le contrôle du drone. Quand vous contrôlez le drone, TIREZ pour envoyer une fléchette de marquage.<br/> Cette fléchette révélera la position de tout joueur qu'elle a touché.";
+      });
+      document.getElementById("spell4").addEventListener("click", function() {
+      document.getElementById("spell4").innerHTML = "ÉQUIPEZ-vous d'un arc et de trois projectiles d'énergie à longue portée capables de traverser les murs. <br/> TIREZ pour décocher un projectile d'énergie en ligne droite, qui inflige des dégâts et révèle la position des ennemis touchés. <br/> Cette compétence peut être RÉUTILISÉE jusqu'à deux fois de plus tant que la compétence est active.";
+      });
    </script>
 </body>
 </html>

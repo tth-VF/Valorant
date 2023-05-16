@@ -64,6 +64,9 @@
    <h1 class="titre">phoenix le flamboyant</h1>
    <br>
    <div id="spell1"><img src="../../image/spell1.png" alt="spell1"></div>
+   <div id="spell2"><img src="../../image/spell2.png" alt="spell2"></div>
+   <div id="spell3"><img src="../../image/spell3.png" alt="spell3"></div>
+   <div id="spell4"><img src="../../image/spell4.png" alt="spell4"></div>
    <script>
       $('.btn').click(function(){
         $(this).toggleClass("click");
@@ -87,7 +90,16 @@
    </script>
    <script>
       document.getElementById("spell1").addEventListener("click", function() {
-      document.getElementById("spell1").innerHTML = "ÉQUIPEZ-vous d'un orbe flamboyant qui explose peu après avoir été lancé, <br/> aveuglant tous les joueurs qui le regardent. TIREZ pour courber la trajectoire de l'orbe vers la gauche. <br/> Utilisez le TIR SECONDAIRE pour courber la trajectoire de l'orbe vers la droite.";
+      document.getElementById("spell1").innerHTML = "ÉQUIPEZ-vous d'un orbe flamboyant qui explose peu après avoir été lancé, <br/>  aveuglant tous les joueurs qui le regardent. TIREZ pour courber la trajectoire de l'orbe vers la gauche. <br/> Utilisez le TIR SECONDAIRE pour courber la trajectoire de l'orbe vers la droite.";
+      });
+      document.getElementById("spell2").addEventListener("click", function() {
+      document.getElementById("spell2").innerHTML = "ÉQUIPEZ-vous d'une boule de feu. TIREZ pour lancer une boule de feu qui explose après un certain temps ou en touchant le sol, créant une zone enflammée persistante qui blesse les ennemis.";
+      });
+      document.getElementById("spell3").addEventListener("click", function() {
+      document.getElementById("spell3").innerHTML = "ÉQUIPEZ-vous d'un mur de feu. TIREZ pour créer une ligne de feu qui se déplace vers l'avant, créant un mur de feu qui bloque la vision et blesse les joueurs qui le traversent. MAINTENEZ LE TIR pour courber le mur dans la direction de votre réticule.";
+      });
+      document.getElementById("spell4").addEventListener("click", function() {
+      document.getElementById("spell4").innerHTML = "Placez INSTANTANÉMENT un marqueur sur votre position. Tant que cette compétence est active, mourir vous renvoie à cette position avec tous vos PV (même chose si la compétence expire).";
       });
    </script>
 </body>
