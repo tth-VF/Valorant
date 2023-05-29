@@ -94,6 +94,12 @@ nav ul .serv-show.show1{
 nav ul .use-show.show2{
   display: block;
 }
+nav ul .slurp-show.show3{
+  display: block;
+}
+nav ul .troll-show.show4{
+  display: block;
+}
 nav ul ul li{
   line-height: 42px;
   border-top: none;
@@ -122,4 +128,43 @@ nav ul li a span{
 }
 nav ul li a span.rotate{
   transform: translateY(-50%) rotate(-180deg);
+}
+.titre{
+  color: #e6e6e6;
+  margin-top: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background: grey;
+  width: 250px;
+  margin-left: 40%;
+  text-align: center;
+}
+#sitea {
+  margin-left: 68%;
+  margin-top: -210px;
+  position: relative;
+}
+#siteb {
+  margin-left: 19%;
+  margin-top: 60px;
+}
+#backb {
+  margin-left: 51%;
+  margin-top: 30px;
+}
+#backa{
+  margin-left: 40%;
+  margin-top: 40px;
+  position: relative;
+} 
+#map{
+  position: relative;
+  margin-left: 37%;
+  margin-top: -220px ;
+}
+img {
+  border-radius: 5px;
+}
+body{
+  background-image: url(../../image/fracturebackground.jpg);
 }

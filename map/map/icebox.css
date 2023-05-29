@@ -94,6 +94,12 @@ nav ul .serv-show.show1{
 nav ul .use-show.show2{
   display: block;
 }
+nav ul .slurp-show.show3{
+  display: block;
+}
+nav ul .troll-show.show4{
+  display: block;
+}
 nav ul ul li{
   line-height: 42px;
   border-top: none;
@@ -122,4 +128,44 @@ nav ul li a span{
 }
 nav ul li a span.rotate{
   transform: translateY(-50%) rotate(-180deg);
+}
+.titre{
+  color: #e6e6e6;
+  margin-top: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background: grey;
+  width: 250px;
+  margin-left: 40%;
+  text-align: center;
+}
+#siteb {
+  margin-left: 17.2%;
+  margin-top: 100px;
+}
+#sitea {
+  margin-left: 68.6%;
+  margin-top: -300px;
+  position: relative;
+}
+#mida {
+  margin-left: 40%;
+  margin-top: 152px;
+  position: relative;
+}
+#midd{
+  margin-left: 45%;
+  margin-top: 35px;
+  position: relative;
+} 
+#map{
+  position: relative;
+  margin-left: 37%;
+  margin-top: -252px ;
+}
+img {
+  border-radius: 5px;
+}
+body{
+  background-image: url(../../image/icebox.webp);
 }

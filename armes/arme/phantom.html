@@ -38,11 +38,11 @@
             <span class="fas fa-caret-down first"></span>
             </a>
             <ul class="feat-show">
-               <li><a href="armes/arme/classic.html"> Classic </a></li>
-               <li><a href="armes/arme/operator.html"> Operator </a></li>
-               <li><a href="armes/arme/phantom.html"> Phantom </a></li>
-               <li><a href="armes/arme/sherif.html"> Sherif </a></li>
-               <li><a href="armes/arme/vandal.html"> Vandal </a></li>
+               <li><a href="classic.html"> Classic </a></li>
+               <li><a href="operator.html"> Operator </a></li>
+               <li><a href="phantom.html"> Phantom </a></li>
+               <li><a href="sherif.html"> Sherif </a></li>
+               <li><a href="vandal.html"> Vandal </a></li>
             </ul>
          </li>
          <li>
@@ -59,8 +59,28 @@
                <li><a href="../../map/map/pearl.html"> Pearl </a></li>
             </ul>
          </li>
+         <li>
+            <a href="#" class="slurp-btn"> retour index
+            <span class="fas fa-caret-down fourth"></span>
+            </a>
+            <ul class="troll-show"> 
+               <li><a href="../../index.html"> index </a></li>
+            </ul>
+         </li>
+         <li>
+            <a href="#" class="troll-btn"> Infos 
+               <span class="fas fa-caret-down fifth"></span>
+               </a>
+            <ul class="troll-show">
+               <li><a href="../../infos.html"> Infos créateur </a></li>
+            </ul>
+         </li>
       </ul>
    </nav>
+   <div class="image-container">
+      <img src="../../image/phantom.png" alt="phantom">
+      <span class="text-overlay"> Passez en automatique contre les ennemis trop proches, et utilisez de courtes rafales contrôlées s'ils sont plus loin. Mieux vaut utiliser l'arme à l'arrêt.</span>
+    </div>
    <script>
       $('.btn').click(function(){
         $(this).toggleClass("click");
@@ -77,6 +97,14 @@
         $('.use-btn').click(function(){
           $('nav ul .use-show').toggleClass("show2");
           $('nav ul .third').toggleClass("rotate");
+        });
+        $('.slurp-btn').click(function(){
+          $('nav ul .slurp-show').toggleClass("show3");
+          $('nav ul .fourth').toggleClass("rotate");
+        });
+        $('.troll-btn').click(function(){
+          $('nav ul .troll-show').toggleClass("show4");
+          $('nav ul .fifth').toggleClass("rotate");
         });
         $('nav ul li').click(function(){
           $(this).addClass("active").siblings().removeClass("active");

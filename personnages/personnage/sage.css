@@ -94,6 +94,12 @@ nav ul .serv-show.show1{
 nav ul .use-show.show2{
   display: block;
 }
+nav ul .slurp-show.show3{
+  display: block;
+}
+nav ul .troll-show.show4{
+  display: block;
+}
 nav ul ul li{
   line-height: 42px;
   border-top: none;

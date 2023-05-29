@@ -59,33 +59,98 @@
                <li><a href="map/map/pearl.html"> Pearl </a></li>
             </ul>
          </li>
+         <li>
+            <a href="#" class="slurp-btn"> retour index
+            <span class="fas fa-caret-down fourth"></span>
+            </a>
+            <ul class="troll-show"> 
+               <li><a href="index.html"> index </a></li>
+            </ul>
+         </li>
+         <li>
+            <a href="#" class="troll-btn"> Infos 
+               <span class="fas fa-caret-down fifth"></span>
+               </a>
+            <ul class="troll-show">
+               <li><a href="infos.html"> Infos créateur </a></li>
+            </ul>
+         </li>
       </ul>
    </nav>
    <h1 class="titre">Personnages</h1>
    <br> 
    <div class="flex">
       <a href="personnages/personnage/phoenix.html">
-         <div class="perso"><img src="image/phoenix.jpg" alt="logo"></div>
+         <div class="perso"><img src="image/phoenix.jpg" alt="logo phoenix"></div>
       </a>
       <a href="personnages/personnage/jett.html">
-         <div class="perso"><img src="image/jett.jpg" alt="logo"></div>
+         <div class="perso"><img src="image/jett.jpg" alt="logo jett"></div>
       </a>
       <a href="personnages/personnage/omen.html">
-         <div class="perso"><img src="image/omen1.jpg" alt="logo"></div>
+         <div class="perso"><img src="image/omen1.jpg" alt="logo omen"></div>
       </a>
    </div>
    <div class="flex2">
       <a href="personnages/personnage/sova.html">
-         <div class="perso2"><img src="image/sova.png" alt="logo"></div>
+         <div class="perso2"><img src="image/sova.png" alt="logo sova"></div>
       </a>
       <a href="personnages/personnage/sage.html">
-         <div class="perso2"><img src="image/sage.png" alt="logo"></div>
+         <div class="perso2"><img src="image/sage.png" alt="logo sage"></div>
       </a>  
       <a href="personnages/personnage/killjoy.html">
-         <div class="perso2"><img src="image/kj.png" alt="logo"></div>
+         <div class="perso2"><img src="image/kj.png" alt="logo killjoy"></div>
       </a>
    </div>
-
+   <h1 class="titre2">Arsenal</h1>
+   <br> 
+   <div class="flex3">
+      <a href="armes/arme/classic.html">
+         <div class="arme"><img src="image/classicindex.png" alt="logo classic"></div>
+      </a>
+      <a href="armes/arme/operator.html">
+         <div class="arme"><img src="image/operatorindex.png" alt="logo operator"></div>
+      </a>
+      <a href="armes/arme/phantom.html">
+         <div class="arme"><img src="image/phantomindex.png" alt="logo phantom"></div>
+      </a>
+   </div>
+   <div class="flex4">
+      <a href="armes/arme/sherif.html">
+         <div class="armes"><img src="image/sherifindex.png" alt="logo sherif"></div>
+      </a>
+      <a href="armes/arme/vandal.html">
+         <div class="armes"><img src="image/vandalindex.png" alt="logo vandal"></div>
+      </a> 
+   </div>
+   <h1 class="titre3">Maps</h1>
+   <br> 
+   <div class="flex5">
+      <a href="map/map/fracture.html">
+         <div class="map1"><img src="image/fractureindex.jpg" alt="logo fracture"></div>
+      </a>
+      <a href="map/map/bind.html">
+         <div class="map1"><img src="image/bindindex.png" alt="logo bind"></div>
+      </a>
+      <a href="map/map/breeze.html">
+         <div class="map1"><img src="image/breezeindex.png" alt="logo breeze"></div>
+      </a>
+   </div>
+   <div class="flex6">
+      <a href="map/map/icebox.html">
+         <div class="map1"><img src="image/iceboxindex.jpg" alt="logo icebox"></div>
+      </a>
+      <a href="map/map/haven.html">
+         <div class="map1"><img src="image/havenindex.png" alt="logo haven"></div>
+      </a>  
+      <a href="map/map/pearl.html">
+         <div class="map1"><img src="image/pearlindex.jpg" alt="logo pearl"></div>
+      </a>
+   </div>
+   <div class="flex7">
+      <a href="map/map/ascent.html">
+         <div class="map2"><img src="image/ascentindex.jpg" alt="logo ascent"></div>
+      </a>
+   </div>
    <script>
       $('.btn').click(function(){
         $(this).toggleClass("click");
@@ -102,6 +167,14 @@
         $('.use-btn').click(function(){
           $('nav ul .use-show').toggleClass("show2");
           $('nav ul .third').toggleClass("rotate");
+        });
+        $('.slurp-btn').click(function(){
+          $('nav ul .slurp-show').toggleClass("show3");
+          $('nav ul .fourth').toggleClass("rotate");
+        });
+        $('.troll-btn').click(function(){
+          $('nav ul .troll-show').toggleClass("show4");
+          $('nav ul .fifth').toggleClass("rotate");
         });
         $('nav ul li').click(function(){
           $(this).addClass("active").siblings().removeClass("active");

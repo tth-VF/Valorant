@@ -59,6 +59,22 @@
                <li><a href="../../map/map/pearl.html"> Pearl </a></li>
             </ul>
          </li>
+         <li>
+            <a href="#" class="slurp-btn"> retour index
+            <span class="fas fa-caret-down fourth"></span>
+            </a>
+            <ul class="troll-show"> 
+               <li><a href="../../index.html"> index </a></li>
+            </ul>
+         </li>
+         <li>
+            <a href="#" class="troll-btn"> Infos 
+               <span class="fas fa-caret-down fifth"></span>
+               </a>
+            <ul class="troll-show">
+               <li><a href="../../infos.html"> Infos créateur </a></li>
+            </ul>
+         </li>
       </ul>
    </nav>
    <h1 class="titre"> omen le prenneur de vie </h1>
@@ -83,6 +99,14 @@
         $('.use-btn').click(function(){
           $('nav ul .use-show').toggleClass("show2");
           $('nav ul .third').toggleClass("rotate");
+        });
+        $('.slurp-btn').click(function(){
+          $('nav ul .slurp-show').toggleClass("show3");
+          $('nav ul .fourth').toggleClass("rotate");
+        });
+        $('.troll-btn').click(function(){
+          $('nav ul .troll-show').toggleClass("show4");
+          $('nav ul .fifth').toggleClass("rotate");
         });
         $('nav ul li').click(function(){
           $(this).addClass("active").siblings().removeClass("active");

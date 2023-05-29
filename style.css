@@ -94,6 +94,12 @@ nav ul .serv-show.show1{
 nav ul .use-show.show2{
   display: block;
 }
+nav ul .slurp-show.show3{
+  display: block;
+}
+nav ul .troll-show.show4{
+  display: block;
+}
 nav ul ul li{
   line-height: 42px;
   border-top: none;
@@ -126,7 +132,6 @@ nav ul li a span.rotate{
 body{
   background-image: url(image/fondecran.jpg);
 }
-/* faire js qui quand ouvrel e menu créer div qui déplace les images */
 .titre{
   color: #e6e6e6;
   margin-top: 5px;
@@ -165,4 +170,94 @@ body{
   border-radius: 18px;
   margin-left: 50px;
   margin-top: 40px;
+}
+.flex3{
+  display: flex;
+  text-align:center;
+  align-items: center;
+  justify-content: center;
+}
+
+.arme img{
+  flex:50%;
+  align-items: center;
+  border-radius: 18px;
+  margin-left: 50px;
+}
+
+.flex4{
+  display: flex;
+  text-align:center;
+  align-items: center;
+  justify-content: center;
+}
+
+.armes img{
+  flex:50%;
+  align-items: center;
+  border-radius: 18px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.titre2{
+  color: #e6e6e6;
+  margin-top: 40px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background: grey;
+  width: 300px;
+  margin-left: 40%;
+  text-align: center;
+}
+.flex5{
+  display: flex;
+  text-align:center;
+  align-items: center;
+  justify-content: center;
+}
+
+.map1 img{
+  flex:50%;
+  align-items: center;
+  border-radius: 18px;
+  margin-left: 50px;
+}
+
+.flex6{
+  display: flex;
+  text-align:center;
+  align-items: center;
+  justify-content: center;
+}
+
+.map1 img{
+  flex:50%;
+  align-items: center;
+  border-radius: 18px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.flex7{
+  display: flex;
+  text-align:center;
+  align-items: center;
+  justify-content: center;
+}
+
+.map2 img{
+  flex:50%;
+  align-items: center;
+  border-radius: 18px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.titre3{
+  color: #e6e6e6;
+  margin-top: 40px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background: grey;
+  width: 300px;
+  margin-left: 40%;
+  text-align: center;
 }

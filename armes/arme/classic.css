@@ -94,6 +94,12 @@ nav ul .serv-show.show1{
 nav ul .use-show.show2{
   display: block;
 }
+nav ul .slurp-show.show3{
+  display: block;
+}
+nav ul .troll-show.show4{
+  display: block;
+}
 nav ul ul li{
   line-height: 42px;
   border-top: none;
@@ -122,4 +128,25 @@ nav ul li a span{
 }
 nav ul li a span.rotate{
   transform: translateY(-50%) rotate(-180deg);
+}
+.image-container {
+  display: inline-block;
+  margin-left: 20%;
+}
+.text-overlay {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.image-container:hover .text-overlay {
+  opacity: 1;
+}
+body{
+  background-color: #ece8e1;
 }
